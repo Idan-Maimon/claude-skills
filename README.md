@@ -6,6 +6,7 @@ Personal [Claude Code](https://claude.com/claude-code) skills. Each folder is on
 | Skill | What it does |
 |---|---|
 | [arch-repo-scaffold](arch-repo-scaffold/SKILL.md) | Generates a new architecture repository modelled on the kubevirt-workflows layout, with a README in every folder explaining what belongs there, with examples. [Layout overview](arch-repo-scaffold/README.md) |
+| [mermaid](mermaid/SKILL.md) | Renders Mermaid diagrams (flowchart, gantt, sequence, state, ER, C4) to PNG or SVG with a local mermaid-cli. Needs Node.js; install steps are in the skill under *Reinstalling* |
 
 ## Install
 
