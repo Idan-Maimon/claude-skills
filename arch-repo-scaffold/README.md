@@ -1,12 +1,21 @@
-# Architecture repo layout
+# arch-repo-scaffold
 
-The layout that `arch-repo-scaffold` generates, modelled on
+A Claude Code skill that generates a new architecture repository, modelled on
 [kubevirt-workflows](https://github.com/Idan-Maimon/kubevirt-workflows). Every generated folder
 has its own `README.md` with the detailed rules and an example; this page is the overview.
 
+**Run it:** ask Claude to *"scaffold a new architecture repo for &lt;project&gt;"*, or type
+`/arch-repo-scaffold`. To run the generator directly:
+
+```bash
+python3 scripts/scaffold.py --name "<Project name>" --dest <dir> [--id 70] [--pages-url https://owner.github.io/repo]
+```
+
+Instructions for Claude are in [SKILL.md](SKILL.md).
+
 ---
 
-## At a glance
+## Layout produced
 
 ```
 <repo>/
