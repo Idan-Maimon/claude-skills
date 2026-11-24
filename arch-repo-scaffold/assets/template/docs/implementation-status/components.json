@@ -1,0 +1,71 @@
+{
+  "title": "{{PROJECT_NAME}}: build status",
+  "updated": "{{DATE}}",
+  "statuses": {
+    "done": {
+      "label": "Done"
+    },
+    "partial": {
+      "label": "In progress"
+    },
+    "todo": {
+      "label": "Not started"
+    },
+    "external": {
+      "label": "External"
+    }
+  },
+  "lanes": [
+    {
+      "id": "people",
+      "title": "People & portal",
+      "subtitle": "Who uses the system, and through what",
+      "components": [
+        {
+          "name": "Users / SRE",
+          "owner": "people",
+          "status": "external",
+          "note": "Replace with the real actors from architecture section 8.1."
+        }
+      ]
+    },
+    {
+      "id": "core",
+      "title": "Core services",
+      "subtitle": "What we build",
+      "components": [
+        {
+          "name": "Example component",
+          "owner": "org/repo",
+          "status": "todo",
+          "note": "Replace with a real component. Say what is done and what is not."
+        }
+      ]
+    },
+    {
+      "id": "external",
+      "title": "External systems",
+      "subtitle": "What we depend on",
+      "components": [
+        {
+          "name": "Example dependency",
+          "owner": "other-team",
+          "status": "external",
+          "note": "Replace with the real systems from architecture section 8.2."
+        }
+      ]
+    }
+  ],
+  "flows": [
+    {
+      "from": "people",
+      "to": "core",
+      "label": "requests"
+    },
+    {
+      "from": "core",
+      "to": "external",
+      "label": "calls"
+    }
+  ]
+}
