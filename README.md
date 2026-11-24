@@ -5,7 +5,7 @@ Personal [Claude Code](https://claude.com/claude-code) skills. Each folder is on
 
 | Skill | What it does |
 |---|---|
-| [arch-repo-scaffold](arch-repo-scaffold/SKILL.md) | Generates a new architecture repository modelled on the kubevirt-workflows layout, with a README in every folder explaining what belongs there, with examples |
+| [arch-repo-scaffold](arch-repo-scaffold/SKILL.md) | Generates a new architecture repository modelled on the kubevirt-workflows layout, with a README in every folder explaining what belongs there, with examples. [Layout overview](arch-repo-scaffold/LAYOUT.md) |
 
 ## Install
 

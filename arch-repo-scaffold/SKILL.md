@@ -12,6 +12,9 @@ place.
 
 ## Layout produced
 
+See [LAYOUT.md](LAYOUT.md) for the full overview: how the pieces connect, the ID scheme, and a
+document's lifecycle.
+
 ```
 <repo>/
 ├── README.md                      Front page: status diagram + documents table
